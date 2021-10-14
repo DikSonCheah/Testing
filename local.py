@@ -1,1 +1,3 @@
 local sample
+remote sample
+
