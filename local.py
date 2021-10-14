@@ -1,1 +1,1 @@
-conflict text
+local main text
