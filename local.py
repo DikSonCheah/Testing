@@ -1,1 +1,1 @@
-local edit 2
+conflict text
