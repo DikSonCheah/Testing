@@ -10,7 +10,7 @@ on:
         description: 'To display more information of affected testcase'
         type: boolean
         required: False
-        default: False
+        default: True
     
     
 jobs:
@@ -26,8 +26,7 @@ jobs:
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - name: git diff
         run: |
-          git diff
-          git status
+          echo pwd
           echo ${{ inputs.tags }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
