@@ -34,6 +34,6 @@ jobs:
         if: ${{ (inputs.verbose == 'true') }} 
         run: echo "HELO"
       - name: Running False
-        if: ${{ (inputs.verbose == 'false' }} 
+        if: ${{ (inputs.verbose == 'false') }} 
         run: echo "FALSE"
 
