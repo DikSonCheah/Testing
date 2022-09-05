@@ -31,9 +31,9 @@ jobs:
           echo ${{ inputs.verbose }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: testing
-        if: ${{ inputs.verbose }} == True
+        if: ${{ inputs.verbose }} == true
         run: echo "HELO"
       - name: Running False
-        if: ${{ inputs.verbose }} == False
+        if: ${{ inputs.verbose }} == false
         run: echo "FALSE"
 
