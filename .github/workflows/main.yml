@@ -28,7 +28,7 @@ jobs:
         run: |
           pwd
           echo ${{ inputs.tags }}
-          if ${{ inputs.verbose }}
+          echo ${{ inputs.verbose }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: testing
         if: ${{ inputs.verbose }} == True
