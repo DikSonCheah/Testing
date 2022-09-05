@@ -28,5 +28,6 @@ jobs:
         run: |
           pwd
           echo ${{ inputs.tags }}
+          echo ${{ inputs.verbose }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
